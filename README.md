@@ -15,7 +15,7 @@ dados.
 ## Passo 1 — Criar a tabela no Supabase
 
 1. Acesse [supabase.com](https://supabase.com) e entre no projeto
-   `minnnqxcjezrqvdlaprq` (o mesmo cuja URL você já tem).
+   `wdsvvbfjwvqjdezefmdj` (o mesmo cuja URL você já tem).
 2. No menu lateral, abra **SQL Editor** → **New query**.
 3. Copie todo o conteúdo do arquivo `schema.sql` deste pacote, cole no editor
    e clique em **Run**.
@@ -29,7 +29,7 @@ dados.
 
 1. No painel do Supabase, vá em **Settings** (ícone de engrenagem) → **API**.
 2. Copie o valor de **Project URL** (deve ser
-   `https://minnnqxcjezrqvdlaprq.supabase.co`).
+   `https://wdsvvbfjwvqjdezefmdj.supabase.co`).
 3. Copie o valor da chave **anon / public** (não use a `service_role`, que é
    secreta e nunca deve ir para um site público).
 
@@ -38,7 +38,7 @@ dados.
 Abra `config.js` e preencha:
 
 ```js
-const SUPABASE_URL = "https://minnnqxcjezrqvdlaprq.supabase.co";
+const SUPABASE_URL = "https://wdsvvbfjwvqjdezefmdj.supabase.co";
 const SUPABASE_ANON_KEY = "cole_aqui_a_sua_anon_key";
 ```
 
